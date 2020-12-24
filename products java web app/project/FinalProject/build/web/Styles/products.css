@@ -1,0 +1,50 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 27, 2019, 1:26:35 AM
+    Author     : deepa
+*/
+
+body { 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 85%;
+    margin-left: 2em;
+    margin-right: 2em;
+    /*width: 400px;*/
+    /*width: 100%;*/
+}
+
+h1{
+    font-size: 150%;
+    color : red;
+}
+table{
+    /*border: 1px solid black;*/
+     border-collapse: collapse;
+     width:50%;
+}
+tr,td,th{
+    border: 1px solid black;
+    /*border-collapse: collapse;*/
+    padding:7px;
+    text-align: left;
+}
+
+table tr td:nth-child(3){
+    text-align: right;
+}
+
+table th:nth-child(3){
+    text-align: right;
+}
+
+.addProduct{
+    margin-top: 10px;
+}
+
+/*body{
+    margin-left: 20px;
+}*/
